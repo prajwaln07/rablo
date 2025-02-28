@@ -10,9 +10,7 @@ export default function ProductCard({ categorySent }) {
   const { addItem } = useCart(); // Destructure addItem from useCart
   const productsPerPage = 6; // 2 rows * 3 products per row
 
-  const handleInput = (event) => {
-    setSearchbar({ name: event.target.value });
-  };
+
 
   const fetchProducts = async () => {
     try {
