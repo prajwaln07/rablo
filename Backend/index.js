@@ -16,7 +16,7 @@ mongoose.connect(process.env.MongoURI)
 
 // Configuring CORS options.
 const corsOptions = {
-    origin: 'http://localhost:5173', // Add the correct origin
+    origin: 'https://rablo-z1is.onrender.com/', // Add the correct origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
